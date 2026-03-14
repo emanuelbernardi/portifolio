@@ -1,12 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import BIProjectsSection from "@/components/BIProjectsSection";
+import GithubSection from "@/components/GithubSection";
+import { CONFIG } from "@/data/content";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background px-6">
+      <HeroSection />
+      
+      <div className="mx-auto max-w-5xl">
+        <div className="h-px bg-border" />
       </div>
+
+      <BIProjectsSection projects={CONFIG.biProjects} />
+
+      <div className="mx-auto max-w-5xl">
+        <div className="h-px bg-border" />
+      </div>
+
+      <GithubSection username={CONFIG.githubUser} />
+
+      <footer className="border-t border-border py-8 text-center">
+        <p className="text-xs text-muted-foreground">
+          {CONFIG.name} · {new Date().getFullYear()}
+        </p>
+      </footer>
     </div>
   );
 };
