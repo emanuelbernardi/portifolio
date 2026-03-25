@@ -7,7 +7,7 @@ export const CONFIG = {
   // --- Informações Pessoais ---
   name: "Emanuel Bernardi",
   role: "BI Developer & Data Engineer",
-  bio: "Emanuel Bernardi Full Stack Developer  Data Engineer Desenvolvedor Full Stack com mais de 4 anos de experiência construindo aplicações completas — do back-end robusto à interface que o usuário realmente quer usar. Trabalho com React, Next.js e Node.js no dia a dia, sempre focado em código limpo, performance e entregas que fazem sentido para o negócio. Além do desenvolvimento, mergulhei no universo de dados: estudo Power BI, análise de dados e Data Engineering com Python, o que me permite não só construir sistemas, mas também extrair inteligência deles. Essa combinação entre software e dados é o que me diferencia — consigo enxergar o produto e os números por trás dele. Se você busca alguém que transita com naturalidade entre uma API bem arquitetada, um dashboard analítico e uma interface moderna, é aqui.",
+  bio: "Emanuel Bernardi Full Stack Developer  Data Engineer Desenvolvedor Full Stack com mais de 4 anos de experiência construindo aplicações completas — do back-end robusto à interface que o usuário realmente quer usar. Trabalho com PHP, React, Next.js e Node.js no dia a dia, sempre focado em código limpo, performance e entregas que fazem sentido para o negócio. Além do desenvolvimento, mergulhei no universo de dados: estudo Power BI, análise de dados e Data Engineering com Python, o que me permite não só construir sistemas, mas também extrair inteligência deles. Essa combinação entre software e dados é o que me diferencia — consigo enxergar o produto e os números por trás dele. Se você busca alguém que transita com naturalidade entre uma API bem arquitetada, um dashboard analítico e uma interface moderna, é aqui.",
   
   // --- Links ---
   githubUser: "emanuelbernardi", // Seus repos serão puxados automaticamente
@@ -16,9 +16,13 @@ export const CONFIG = {
 
   // --- Skills / Tecnologias ---
   skills: [
-    "Power BI", "SQL Server", "Python", "ETL/ELT",
-    "DAX", "Airflow", "dbt", "PostgreSQL",
-    "Azure Data Factory", "Databricks", "Git"
+    "Power BI", "SQL", "Python", "ETL/ELT",
+    "DAX", "PostgreSQL", "Azure Data Factory", 
+    "Databricks", "Git", "PHP", "Laravel", 
+    "React", "Node.js", "TypeScript", "Docker", 
+    "CI/CD", "Agile", "Scrum", "Data Modeling", 
+    "Data Visualization", "Cloud Computing", 
+    "RabbitMQ", "Redis", "Cron Jobs"
   ],
 
   // --- Projetos de BI (adicione quantos quiser) ---
