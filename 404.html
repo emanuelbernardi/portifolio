@@ -5,8 +5,10 @@
     <script>
       var path = window.location.pathname;
       var repo = path.split('/')[1] || 'portifolio';
+      var route = path.replace(/^\/[^/]+/, '');
+      if (!route) route = '/';
       window.location.replace(
-        window.location.origin + '/' + repo + '/?p=' + encodeURIComponent(path)
+        window.location.origin + '/' + repo + '/#' + route
       );
     </script>
   </head>
