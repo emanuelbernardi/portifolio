@@ -35,8 +35,8 @@ export const CONFIG = {
       tags: ["Power BI", "SQL", "ETL"]
     },
     {
-      title: "Análise Financeira Corporativa",
-      description: "Dashboard executivo com DRE, fluxo de caixa e análise de margem por centro de custo com drill-through interativo.",
+      title: "Análise Financeira",
+      description: "Dashboard de Análise Financeira de Vendas — Plataforma Power BI para monitoramento de receitas, custos e margens com análise detalhada por produto, linha e equipe de vendas, facilitando decisões estratégicas baseadas em dados.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       link: "https://app.powerbi.com/reportEmbed?reportId=39385f68-e543-4ee4-ae94-afab450f7a55&autoAuth=true&ctid=d1ac0d58-b9ac-410d-b777-bb4f23874513",
       tags: ["Power BI", "DAX", "Modelagem"]
