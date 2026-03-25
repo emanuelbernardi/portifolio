@@ -3,15 +3,10 @@
   <head>
     <script>
       (function () {
-        var params = new URLSearchParams(window.location.search);
-        var p = params.get('p');
-        if (p) {
-          try {
-            var path = decodeURIComponent(p);
-            window.history.replaceState(null, null, path);
-          } catch (err) {
-            console.warn('Falha ao decodificar redirect path', err);
-          }
+        var redirect = window.location.search.slice(1);
+        if (redirect.startsWith('p=')) {
+          var path = decodeURIComponent(redirect.slice(2));
+          window.history.replaceState(null, null, path);
         }
       })();
     </script>
