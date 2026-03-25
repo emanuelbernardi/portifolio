@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <script>
       var path = window.location.pathname;
+      var repo = path.split('/')[1] || 'portifolio';
       window.location.replace(
-        window.location.origin + '/' + path.split('/')[1] + '/?p=' + encodeURIComponent(path)
+        window.location.origin + '/' + repo + '/?p=' + encodeURIComponent(path)
       );
     </script>
   </head>
