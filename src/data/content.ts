@@ -36,7 +36,7 @@ export const CONFIG = {
     },
     {
       title: "Análise Financeira",
-      description: "Dashboard de Análise Financeira de Vendas — Plataforma Power BI para monitoramento de receitas, custos e margens com análise detalhada por produto, linha e equipe de vendas, facilitando decisões estratégicas baseadas em dados.",
+      description: "Solução Power BI para monitoramento integrado de receitas, custos e margens com segmentação por produto e desempenho de vendedores.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       link: "https://app.powerbi.com/reportEmbed?reportId=39385f68-e543-4ee4-ae94-afab450f7a55&autoAuth=true&ctid=d1ac0d58-b9ac-410d-b777-bb4f23874513",
       tags: ["Power BI", "DAX", "Modelagem"]
