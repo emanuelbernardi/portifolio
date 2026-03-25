@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# 🚀 Emanuel Bernardi — Portfólio
 
-## Project info
+> Portfólio pessoal desenvolvido em React, apresentando minha trajetória como Full Stack Developer & Data Engineer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 👨‍💻 Sobre o projeto
 
-There are several ways of editing your application.
+Este repositório contém o código-fonte do meu portfólio pessoal, onde apresento minha experiência, projetos e habilidades nas áreas de desenvolvimento full stack e engenharia de dados.
 
-**Use Lovable**
+🔗 **Acesse:** [emanuelbernardi.dev](https://app.xperiun.com/in/emanuelbernardi)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tecnologias utilizadas
 
-**Use your preferred IDE**
+| Categoria | Tecnologia |
+|-----------|------------|
+| Framework | React + TypeScript |
+| Build Tool | Vite |
+| Estilização | Tailwind CSS |
+| Componentes | shadcn/ui |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚡ Como rodar localmente
 
-Follow these steps:
+### Pré-requisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- [Node.js](https://nodejs.org/) (recomendado: v18+)
+- npm ou yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalação
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 2. Acesse a pasta do projeto
+cd seu-repositorio
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Acesse **http://localhost:8080** no seu navegador.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Scripts disponíveis
 
-**Use GitHub Codespaces**
+```bash
+npm run dev       # Inicia o servidor de desenvolvimento
+npm run build     # Gera o build de produção
+npm run preview   # Visualiza o build de produção localmente
+npm run lint      # Executa o linter
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📁 Estrutura do projeto
 
-This project is built with:
+```
+├── public/             # Arquivos estáticos
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/          # Páginas da aplicação
+│   ├── assets/         # Imagens e recursos
+│   ├── lib/            # Utilitários e helpers
+│   └── main.tsx        # Ponto de entrada
+├── index.html
+├── tailwind.config.ts
+├── vite.config.ts
+└── tsconfig.json
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🚢 Deploy
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+O projeto está configurado para deploy contínuo. Qualquer push na branch `main` dispara automaticamente o pipeline de build e publicação.
 
-## Can I connect a custom domain to my Lovable project?
+Para gerar o build manualmente:
 
-Yes, you can!
+```bash
+npm run build
+# Os arquivos estarão na pasta /dist
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📬 Contato
+
+Quer conversar sobre um projeto ou oportunidade?
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/emanuel-bernardi-596169215/)
+- 🌐 [Portfólio](https://app.xperiun.com/in/emanuelbernardi)
+- 📧 **seu-email@exemplo.com**
+
+---
+
+<p align="center">Feito com 💙 por Emanuel Bernardi</p>
