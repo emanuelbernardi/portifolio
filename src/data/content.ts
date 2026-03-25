@@ -6,7 +6,7 @@
 export const CONFIG = {
   // --- Informações Pessoais ---
   name: "Emanuel Bernardi",
-  role: "Software Engineer & BI Developer ",
+  role: "Software Engineer & BI Developer",
   bio: "Emanuel Bernardi Full Stack Developer  Data Engineer Desenvolvedor Full Stack com mais de 4 anos de experiência construindo aplicações completas — do back-end robusto à interface que o usuário realmente quer usar. Trabalho com PHP, React, Next.js e Node.js no dia a dia, sempre focado em código limpo, performance e entregas que fazem sentido para o negócio. Além do desenvolvimento, mergulhei no universo de dados: estudo Power BI, análise de dados e Data Engineering com Python, o que me permite não só construir sistemas, mas também extrair inteligência deles. Essa combinação entre software e dados é o que me diferencia — consigo enxergar o produto e os números por trás dele. Se você busca alguém que transita com naturalidade entre uma API bem arquitetada, um dashboard analítico e uma interface moderna, é aqui.",
   
   // --- Links ---
@@ -33,14 +33,14 @@ export const CONFIG = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
       link: "https://app.powerbi.com/view?r=eyJrIjoiM2YyMzdhZTYtOGM3MS00MmVkLTkyYzUtNDJjYWE5ZjlmMzM3IiwidCI6ImQxYWMwZDU4LWI5YWMtNDEwZC1iNzc3LWJiNGYyMzg3NDUxMyJ9",
       tags: ["Power BI", "SQL", "ETL"]
+    },
+    {
+      title: "Análise Financeira Corporativa",
+      description: "Dashboard executivo com DRE, fluxo de caixa e análise de margem por centro de custo com drill-through interativo.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+      link: "https://app.powerbi.com/reportEmbed?reportId=39385f68-e543-4ee4-ae94-afab450f7a55&autoAuth=true&ctid=d1ac0d58-b9ac-410d-b777-bb4f23874513",
+      tags: ["Power BI", "DAX", "Modelagem"]
     }
-    // {
-    //   title: "Análise Financeira Corporativa",
-    //   description: "Dashboard executivo com DRE, fluxo de caixa e análise de margem por centro de custo com drill-through interativo.",
-    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    //   link: "https://app.powerbi.com/exemplo2",
-    //   tags: ["Power BI", "DAX", "Modelagem"]
-    // },
     // {
     //   title: "Pipeline de Dados - Data Lake",
     //   description: "Orquestração de ingestão de dados de múltiplas fontes com transformação e carga em data warehouse na nuvem.",
