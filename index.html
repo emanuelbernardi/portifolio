@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      (function () {
+        var redirect = window.location.search.slice(1);
+        if (redirect.startsWith('p=')) {
+          var path = decodeURIComponent(redirect.slice(2));
+          window.history.replaceState(null, null, path);
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- TODO: Set the document title to the name of your application -->
