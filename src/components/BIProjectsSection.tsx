@@ -69,22 +69,16 @@ const BIProjectsSection = ({ projects }: { projects: BIProject[] }) => {
         </div>
       </div>
       <br></br>
-      <p className="text-center text-muted-foreground">
-        Aqui está o meu portfólio completo de projetos de Business Intelligence!
-      </p>
-      <br></br>
-      <br></br>
-      <div className="flex items-center justify-center">
-        <a
-          href="https://app.xperiun.com/in/emanuelbernardi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted-foreground transition-colors hover:text-primary"
-        >
-          <ExternalLink size={14} />
-        </a>
-      </div>
-      
+        <div className="mt-6 text-center">
+          <a
+            href="https://app.xperiun.com/in/emanuelbernardi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs text-muted-foreground transition-colors hover:text-primary"
+          >
+            Aqui está o meu portfólio completo de projetos de Business Intelligence →
+          </a>
+        </div>
     </section>
   );
 };
