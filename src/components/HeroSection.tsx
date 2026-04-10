@@ -1,8 +1,16 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { CONFIG } from "@/data/content";
 
+const BIO_TEXT = {
+  pt: CONFIG.bio, // ou cole direto: "Sou desenvolvedor..."
+  en: CONFIG.bioEnglish, // ou cole a tradução: "I'm a software developer..."
+};
+
 const HeroSection = () => {
+  const [lang, setLang] = useState<"pt" | "en">("pt");
+
   return (
     <section className="relative py-24 md:py-32">
       <div className="mx-auto max-w-3xl">
@@ -15,8 +23,15 @@ const HeroSection = () => {
           <h1 className="text-display text-foreground">{CONFIG.name}</h1>
           <p className="mt-2 text-xl font-medium text-muted-foreground">{CONFIG.role}</p>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted-foreground">
-            {CONFIG.bio}
+            {BIO_TEXT[lang]}
           </p>
+
+          <button
+            onClick={() => setLang((prev) => (prev === "pt" ? "en" : "pt"))}
+            className="mt-3 text-xs text-muted-foreground hover:text-primary transition-colors"
+          >
+            {lang === "pt" ? "🌐 Read in English" : "🌐 Ler em Português"}
+          </button>
 
           <div className="mt-8 flex items-center gap-4">
             <a
